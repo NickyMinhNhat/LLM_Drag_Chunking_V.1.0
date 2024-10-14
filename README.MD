@@ -1,11 +1,6 @@
 # Drag and Drop RAG
 
 ## Overview
-
-![](https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/5d2762e0-84a4-11ef-80c6-c1c8552cee67-Screen_Shot_2024_10_07_at_19.03.57.png)
-
-[Video](https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/e08c5de0-852e-11ef-b095-cf36210a4279-drop_rag_gif.gif)
-
 <p align="center"> 
    <img src="image/Demo.PNG" alt="Testing for my CV" width="400"/> </p>
 
