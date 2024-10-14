@@ -26,12 +26,12 @@ This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables
    pip install -r requirements.txt
    ```
 
-3a. Server: Run server using Flask:
+3. a. Server: Run server using Flask:
    ```bash
    python server.py
    ```
 
-3b. Client: Run the Streamlit app:
+3. b. Client: Run the Streamlit app:
    ```bash
    streamlit run client.py
    ```
