@@ -6,6 +6,9 @@
 
 [Video](https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/e08c5de0-852e-11ef-b095-cf36210a4279-drop_rag_gif.gif)
 
+<p align="center"> 
+   <img src="image/Demo.png" alt="Library" width="400"/> </p>
+
 This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables users to upload data (CSV, JSON, PDF, or DOCX files), store it in a **Chroma vector store**, and interact with it through a chatbot powered by **Gemini** (version `gemini-1.5-pro`). The chatbot retrieves relevant data from the uploaded files, enhances user queries, and returns responses using **LLMs**.
 
 ## Features
