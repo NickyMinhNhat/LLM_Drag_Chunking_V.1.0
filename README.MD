@@ -17,8 +17,8 @@ This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables
 ## Running the Application
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/bangoc123/drop-rag.git
-   cd drop-rag
+   git clone https://github.com/NickyMinhNhat/LLM_Drag_Chunking_V.1.0.git
+   cd LLM_Drag_Chunking_V.1.0
    ```
 
 2. Install the required Python packages:
@@ -26,9 +26,14 @@ This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables
    pip install -r requirements.txt
    ```
 
-3. Run the Streamlit app:
+3a. Server: Run server using Flask:
    ```bash
-   streamlit run app.py
+   python server.py
+   ```
+
+3b. Client: Run the Streamlit app:
+   ```bash
+   streamlit run client.py
    ```
 
 4. Access the application on `http://localhost:8501` in your browser.
