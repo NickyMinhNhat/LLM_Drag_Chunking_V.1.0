@@ -6,6 +6,9 @@
 
 [Video](https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/e08c5de0-852e-11ef-b095-cf36210a4279-drop_rag_gif.gif)
 
+<p align="center"> 
+   <img src="image/Demo.PNG" alt="Testing for my CV" width="400"/> </p>
+
 This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables users to upload data (CSV, JSON, PDF, or DOCX files), store it in a **Chroma vector store**, and interact with it through a chatbot powered by **Gemini** (version `gemini-1.5-pro`). The chatbot retrieves relevant data from the uploaded files, enhances user queries, and returns responses using **LLMs**.
 
 ## Features
@@ -17,8 +20,8 @@ This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables
 ## Running the Application
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/bangoc123/drop-rag.git
-   cd drop-rag
+   git clone https://github.com/NickyMinhNhat/LLM_Drag_Chunking_V.1.0.git
+   cd LLM_Drag_Chunking_V.1.0
    ```
 
 2. Install the required Python packages:
@@ -26,9 +29,14 @@ This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables
    pip install -r requirements.txt
    ```
 
-3. Run the Streamlit app:
+3. a. Server: Run server using Flask:
    ```bash
-   streamlit run app.py
+   python server.py
+   ```
+
+3. b. Client: Run the Streamlit app:
+   ```bash
+   streamlit run client.py
    ```
 
 4. Access the application on `http://localhost:8501` in your browser.
