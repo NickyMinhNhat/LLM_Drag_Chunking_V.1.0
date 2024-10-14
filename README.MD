@@ -28,13 +28,13 @@ This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables
    ```bash
    python server.py
    ```
-<p align="center"> <img src="image/server.PNG" alt="Running for my server" width="400"/> </p>
+<p align="center"> <img src="image/Server.PNG" alt="Running for my server" width="400"/> </p>
 
 3. b. Client: Run the Streamlit app:
    ```bash
    streamlit run client.py
    ```
-<p align="center"> <img src="image/client.PNG" alt="Running for my client" width="400"/> </p>
+<p align="center"> <img src="image/Client.PNG" alt="Running for my client" width="400"/> </p>
 
 4. Access the application on `http://localhost:8501` in your browser.
 
