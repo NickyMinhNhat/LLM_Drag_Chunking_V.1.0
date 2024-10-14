@@ -8,20 +8,24 @@ This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables
 
 ## Chunker Detail
 1. No Chunking
+
 Description: This option does not perform any chunking on the text. The entire selected_column_value is treated as a single chunk.
 Use Case: Suitable for short texts where maintaining context is essential.
 
 2. Recursive Token Chunker
+
 Description: This option uses the RecursiveTokenChunker to split the text into smaller segments based on a predefined token size.
 Use Case: Ideal for large texts that need to be divided into manageable parts while preserving meaning.
 
 3. Semantic Chunker
+
 Description: Utilizes ProtonxSemanticChunker to chunk text based on semantics. It supports two embedding methods:
 TF-IDF: Uses the TF-IDF method for semantic analysis.
 Transformers: Utilizes transformer models (e.g., all-MiniLM-L6-v2) for deeper semantic embeddings.
 Use Case: Best for applications requiring semantic analysis while maintaining context in each segment.
 
 4. Agentic Chunker
+
 Description: Employs LLMAgenticChunker with advanced AI models (e.g., gemini-1.5-pro from Google) to generate contextually appropriate chunks. Requires an API key for access.
 Use Case: Suitable for intelligent systems needing deep semantic analysis and natural interaction.
 
