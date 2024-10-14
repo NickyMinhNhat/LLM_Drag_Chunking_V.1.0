@@ -6,7 +6,7 @@
 
 This project is a **Retrieval-Augmented Generation (RAG)** pipeline that enables users to upload data (CSV, JSON, PDF, or DOCX files), store it in a **Chroma vector store**, and interact with it through a chatbot powered by **Gemini** (version `gemini-1.5-pro`). The chatbot retrieves relevant data from the uploaded files, enhances user queries, and returns responses using **LLMs**.
 
-## Chunker Detail
+## Chunker: Detail Levels
 1. **No Chunking**
 
 Description: This option does not perform any chunking on the text. The entire selected_column_value is treated as a single chunk.
